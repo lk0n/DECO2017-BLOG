@@ -39,7 +39,7 @@ Most relationships are one-to-many: one user has many pets, one case has many ro
 
 We used **dbdiagram.io** to render the ERD visually, which made it easier to catch gaps in the written DDDs.
 
-![ERD for pet separation anxiety hub](/DECO2017-BLOG/assets/ERD.png)
+![ERD for pet separation anxiety hub](https://raw.githubusercontent.com/lk0n/DECO2017-BLOG/main/assets/ERD.png)
 
 ## What's still unclear
 The matching logic itself. Right now the schema supports filtering by pet type, age, and behaviour tags, but we haven't figured out how the system actually surfaces results yet. A simple filtered query might be enough, but we need to test whether that returns results that feel useful or just returns everything.
